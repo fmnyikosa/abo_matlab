@@ -1,6 +1,6 @@
 # ABO: Adaptive Bayesian Optimization for MATLAB
 
-This is Adaptive Bayesian Optimization (ABO )for time-varying objective functions in MATLAB. It relies on using [BayesOptMat](https://www.github.com/fmnyikosa/bayes_opt_mat). ABO performs Bayesian global optimization with the same acquisition functions as standard BO. The data is in the format $(X, y)$, where $X = {t, x}$, where $t, y \in \mathbb{R}$, $x \in \in \mathbb{R}^n$ and $n \in \mathbb{Z}$. This code has the following additional features:
+This is Adaptive Bayesian Optimization (ABO )for time-varying objective functions in MATLAB. It relies on using [BayesOptMat](https://www.github.com/fmnyikosa/bayes_opt_mat). ABO performs Bayesian global optimization with the same acquisition functions as standard BO. This code has the following additional features:
 
 - ABO diagnostic and logging tools to test optimization speed and efficiency; 
 - ABO visualization and animation utilities for low dimensional data and test objective functions, and for performance metrics' graphs. 
